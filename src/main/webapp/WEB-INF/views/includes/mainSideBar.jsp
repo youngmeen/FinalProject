@@ -39,7 +39,7 @@
 			<li><a href="table.html"><i class="ion ion-clipboard"></i><span>Tables</span></a>
 			</li>
 
-			<li><a href="board/boardMain.jsp"><i
+			<li><a href="/hi"><i
 					class="ion ion-ios-location-outline"></i><span>Board</span></a></li>
 		</ul>
 	</aside>
