@@ -7,7 +7,7 @@
 <meta
 	content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no, shrink-to-fit=no"
 	name="viewport">
-<title>Dashboard &mdash; Stisla</title>
+<title>GroupWare</title>
 
 <link rel="stylesheet"
 	href="resources/dist/modules/bootstrap/css/bootstrap.min.css">
@@ -157,9 +157,8 @@
 						</li>
 						<li><a href="chartjs.html"><i class="ion ion-stats-bars"></i><span>Chart.js</span></a>
 						</li>
-						<li><a href="simple.html"><i
-								class="ion ion-ios-location-outline"></i><span>Google
-									Maps</span></a></li>
+						<li><a href="/board/boardMain.jsp"><i
+								class="ion ion-ios-location-outline"></i><span>Board</span></a></li>
 						<li><a href="#" class="has-dropdown"><i
 								class="ion ion-ios-copy-outline"></i><span>Examples</span></a>
 							<ul class="menu-dropdown">
