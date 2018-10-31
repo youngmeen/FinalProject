@@ -1,4 +1,4 @@
-package com.group.ware;
+package com.groupware.controller;
 
 import org.springframework.stereotype.Controller;
 import org.springframework.ui.Model;
