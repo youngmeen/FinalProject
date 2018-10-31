@@ -16,6 +16,7 @@
 	</section>
 
 	<!-- 이곳에 메인화면 디자인 하면 됩니다. -->
+	
 	<div class="panel-body">
 		<table width="50%"
 			class="table table-striped table-bordered table-hover">
@@ -28,15 +29,19 @@
 					<th>수정일</th>
 				</tr>
 			</thead>
-			<tbody>
+			<c:forEach items="${list}" var="board">
 				<tr>
-					<td>1</td>
-					<td>gg</td>
-					<td>gg</td>
-					<td>gg</td>
-					<td>gg</td>
+					<td><c:out value="${board.bno }" /></td>
+					<td><a href='/board/get?bno=<c:out value="${board.bno }"/>'>
+							<c:out value="${board.title }" />
+					</a></td>
+					<td><c:out value="${board.writer }" /></td>
+					<td><fmt:formatDate pattern="yyyy-MM-dd"
+							value="${board.regdate }" /></td>
+					<td><fmt:formatDate pattern="yyyy-MM-dd"
+							value="${board.regdate }" /></td>
 				</tr>
-			</tbody>
+			</c:forEach>
 		</table>
 
 	</div>

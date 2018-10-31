@@ -1,5 +1,10 @@
 package com.groupware.service;
 
-public class BoardService {
+import java.util.List;
 
+import com.groupware.domain.BoardVO;
+
+public interface BoardService {
+
+	public List<BoardVO> getList();
 }
